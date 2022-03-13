@@ -114,7 +114,9 @@
           </div>
 
           <!-- LOGO -->
-          <img class="my-auto md:mx-4" src="@/assets/logo.png" />
+          <router-link :to="{ name: 'Home' }">
+            <img class="my-auto md:mx-4" src="@/assets/logo.png" />
+            </router-link>
 
           <!-- LOGO END -->
 

@@ -110,7 +110,7 @@
     <div class="container mx-auto px-8 py-8 md:px-16 xl:px-56 w-full">
       <h2 class="text-5xl font-light pb-8 uppercase">naše penziony</h2>
       <div class="grid grid-cols-12 grid-flow-row gap-x-4 gap-y-4">
-        <a href="#" class="col-span-12 md:col-span-4">
+          <router-link :to="{ name: 'Home' }" class="col-span-12 md:col-span-4">
           <div
             class="
               flex flex-col
@@ -169,8 +169,8 @@
               >Ječmínek</span
             >
           </div>
-        </a>
-        <a href="#" class="col-span-12 md:col-span-4">
+          </router-link>
+        <router-link :to="{ name: 'Home' }" class="col-span-12 md:col-span-4">
           <div
             class="
               flex
@@ -231,8 +231,8 @@
               >Ječmínek 2</span
             >
           </div>
-        </a>
-        <a href="#" class="col-span-12 md:col-span-4">
+        </router-link>
+        <router-link :to="{ name: 'Home' }" class="col-span-12 md:col-span-4">
           <div
             class="
               flex flex-col
@@ -290,7 +290,7 @@
               >Agape</span
             >
           </div>
-        </a>
+        </router-link>
       </div>
     </div>
 
