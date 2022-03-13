@@ -11,6 +11,7 @@
         <span>Cena pokoje neobsahuje lázeňský poplatek 30,- Kč/os/noc.</span>
         <span>Děti do 3 let ZDARMA</span>
       </div>
+      <rezervace :hotelId="4879" />
       <div class="flex flex-col w-full">
         <pokoj
           v-for="pokoj in info"
@@ -25,16 +26,35 @@
         />
       </div>
     </div>
+        <div class="w-full bg-gray-100">
+      <footer
+        class="
+          container
+          mx-auto
+          px-8
+          py-8
+          md:px-16
+          xl:px-56
+          w-full
+          flex
+          justify-center
+        "
+      >
+        © 2022 Penziony Luhačovice
+      </footer>
+    </div>
   </div>
 </template>
 
 <script>
 import Pokoj from "../components/Pokoj.vue";
+import Rezervace from "../components/Rezervace.vue";
 
 export default {
   name: "Agape",
   components: {
     Pokoj,
+    Rezervace
   },
   computed: {
     info() {

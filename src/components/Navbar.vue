@@ -29,7 +29,7 @@
               stroke-linejoin="round"
             />
           </svg>
-          <span class="font-light">{{info.telefon}}</span>
+          <span class="font-light">{{ info.telefon }}</span>
         </div>
         <div class="flex flex-row items-center px-8 md:px-0 space-x-4">
           <svg
@@ -54,9 +54,7 @@
               stroke-linejoin="round"
             />
           </svg>
-          <span class="font-light"
-            >{{info.email}}</span
-          >
+          <span class="font-light">{{ info.email }}</span>
         </div>
         <div class="flex flex-row items-center px-8 md:px-0 space-x-4">
           <svg
@@ -82,7 +80,7 @@
             />
           </svg>
 
-          <span class="font-light">{{info.oteviraciDoba}}</span>
+          <span class="font-light">{{ info.oteviraciDoba }}</span>
         </div>
       </div>
     </div>

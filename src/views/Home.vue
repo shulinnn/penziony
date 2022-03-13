@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <slider/>
+    <slider />
     <div
       class="
         container
@@ -27,10 +27,14 @@
       </p>
     </div>
 
+    <div class="container mx-auto px-8 py-8 md:px-16 xl:px-56 w-full">
+      <h3 class="text-5xl font-light">REZERVACE</h3>
+      <rezervace :hotelId="4879" />
+    </div>
+
     <div class="w-full bg-gray-100">
       <div class="container mx-auto px-8 py-8 md:px-16 xl:px-56 w-full">
         <h2 class="text-5xl font-light pb-8">SLUŽBY</h2>
-
         <div
           class="
             flex flex-col
@@ -41,8 +45,8 @@
             md:space-y-0
           "
         >
-          <div class="flex flex-row items-center lg:w-1/3 md:p-4">
-            <img class="h-16" src="@/assets/icons/masaze.png" />
+          <div class="flex flex-row items-center lg:w-1/2 md:p-4">
+            <img class="h-16" alt="masáže" src="@/assets/icons/masaze.png" />
             <div class="text-left flex flex-col px-4 justify-center">
               <span
                 class="
@@ -56,28 +60,30 @@
                 Masáže
               </span>
               <span class="text-left font-light">
-                V bezprostřední blízkosti našich penzionů si můžete zajít na
-                masáže.
+                Přímo v budově penzionu Ječmínek si můžete zajít na masáže.
+                <p class="text-left font-light">
+                  Masáž celého těla, krční páteře apod.
+                </p>
               </span>
             </div>
           </div>
 
-          <div class="flex flex-row items-center lg:w-1/3 md:p-4">
-            <img class="h-16" src="@/assets/icons/kadernictvi.png" />
+          <div class="flex flex-row items-center lg:w-1/2 md:p-4">
+            <img class="h-16" alt="mix" src="@/assets/icons/mix.png" />
 
             <div class="text-left flex flex-col px-4 justify-center">
               <span class="text-2xl font-semibold uppercase">
-                Kadeřnictví
+                Kadeřnictví & Manikúra
               </span>
               <span class="text-left font-light">
-                V našich penzionech Ječmínek a Ječmínek 2 poskytujeme i služby
-                kadeřnictví
+                V našich penzionech Ječmínek poskytujeme i služby kadeřnictví a
+                manikúry
               </span>
             </div>
           </div>
 
-          <div class="flex flex-row items-center lg:w-1/3 md:p-4">
-            <img class="h-16" src="@/assets/icons/manikura.png" />
+          <div class="flex flex-row items-center lg:w-1/2 md:p-4">
+            <img class="h-16" alt="parking" src="@/assets/icons/parking.png" />
 
             <div class="text-left flex flex-col px-4 justify-center">
               <span class="text-2xl font-semibold uppercase"> Parkování </span>
@@ -87,19 +93,8 @@
             </div>
           </div>
 
-          <div class="flex flex-row items-center lg:w-1/3 md:p-4">
-            <img class="h-16" src="@/assets/icons/parking.png" />
-
-            <div class="text-left flex flex-col px-4 justify-center">
-              <span class="text-2xl font-semibold uppercase"> Parkování </span>
-              <span class="text-left font-light">
-                Všechny naše penziony mají svoje soukromé parkoviště
-              </span>
-            </div>
-          </div>
-
-          <div class="flex flex-row items-center lg:w-1/3 md:p-4">
-            <img class="h-16" src="@/assets/icons/wifi.png" />
+          <div class="flex flex-row items-center lg:w-1/2 md:p-4">
+            <img class="h-16" alt="parking" src="@/assets/icons/wifi.png" />
 
             <div class="text-left flex flex-col px-4 justify-center">
               <span class="text-2xl font-semibold uppercase"> Internet </span>
@@ -145,9 +140,11 @@
                 group-hover:outline-white
                 transition-all
                 duration-500
+                filter
                 ease-in-out
                 outline-offset-[-24px]
               "
+              alt="jecminek"
               src="@/assets/penziony/jecminek.jpg"
             />
             <span
@@ -209,6 +206,7 @@
                 ease-in-out
                 outline-offset-[-24px]
               "
+              alt="jecminek"
               src="@/assets/penziony/jecminek.jpg"
             />
             <span
@@ -267,6 +265,7 @@
                 ease-in-out
                 outline-offset-[-24px]
               "
+              alt="agape"
               src="@/assets/penziony/agape_2.jpg"
             />
             <span
@@ -361,6 +360,7 @@
                 duration-300
                 z-10
               "
+              :alt="image"
               :src="image"
             />
           </a>
@@ -401,6 +401,7 @@
                 w-auto
                 opacity-100
               "
+              alt="autocar tichy"
               src="https://autocartichy.cz/wp-content/themes/autocartichy/_/img/logo.png"
             />
           </a>
@@ -416,6 +417,7 @@
                 w-0
                 opacity-0
               "
+              alt="autocar tichy"
               src="https://autocartichy.cz/wp-content/themes/autocartichy/_/img/logo.png"
             />
           </a>
@@ -430,6 +432,7 @@
                 duration-500
                 ease-in
               "
+              alt="autocar tichy"
               src="https://autocartichy.cz/wp-content/themes/autocartichy/_/img/logo.png"
             />
           </a>
@@ -443,6 +446,7 @@
                 duration-500
                 ease-in
               "
+              alt="autocar tichy"
               src="https://autocartichy.cz/wp-content/themes/autocartichy/_/img/logo.png"
             />
           </a>
@@ -489,10 +493,11 @@
 
 <script>
 import Slider from "@/components/Slider.vue";
+import Rezervace from "../components/Rezervace.vue";
 
 export default {
   name: "Home",
-  components: { Slider },
+  components: { Slider, Rezervace },
   data() {
     return {
       reklamaInt: 1,
