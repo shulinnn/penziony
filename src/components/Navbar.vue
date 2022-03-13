@@ -29,7 +29,11 @@
               stroke-linejoin="round"
             />
           </svg>
-          <span class="font-light">{{ info.telefon }}</span>
+          <div class="flex flex-col">
+            <span class="font-light">{{ info.telefon[0] }} - Ječmínek</span>
+            <span class="font-light">{{ info.telefon[1] }} - Agape</span>
+          </div>
+          
         </div>
         <div class="flex flex-row items-center px-8 md:px-0 space-x-4">
           <svg

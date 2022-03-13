@@ -110,7 +110,7 @@
     <div class="container mx-auto px-8 py-8 md:px-16 xl:px-56 w-full">
       <h2 class="text-5xl font-light pb-8 uppercase">naše penziony</h2>
       <div class="grid grid-cols-12 grid-flow-row gap-x-4 gap-y-4">
-          <router-link :to="{ name: 'Home' }" class="col-span-12 md:col-span-4">
+          <router-link :to="{ name: 'Jecminek' }" class="col-span-12 md:col-span-4">
           <div
             class="
               flex flex-col
@@ -170,7 +170,7 @@
             >
           </div>
           </router-link>
-        <router-link :to="{ name: 'Home' }" class="col-span-12 md:col-span-4">
+        <router-link :to="{ name: 'Jecminek2' }" class="col-span-12 md:col-span-4">
           <div
             class="
               flex
@@ -232,7 +232,7 @@
             >
           </div>
         </router-link>
-        <router-link :to="{ name: 'Home' }" class="col-span-12 md:col-span-4">
+        <router-link :to="{ name: 'Agape' }" class="col-span-12 md:col-span-4">
           <div
             class="
               flex flex-col
@@ -268,6 +268,7 @@
               alt="agape"
               src="@/assets/penziony/agape_2.jpg"
             />
+
             <span
               class="
                 w-full
@@ -389,7 +390,7 @@
           </svg>
         </div>
         <div class="flex flex-row w-full justify-center">
-          <a href="#">
+          <a href="https://autocartichy.cz/">
             <img
               class="
                 md:hidden
@@ -405,7 +406,7 @@
               src="https://autocartichy.cz/wp-content/themes/autocartichy/_/img/logo.png"
             />
           </a>
-          <a href="#">
+          <a href="https://autocartichy.cz/">
             <img
               class="
                 md:hidden
@@ -421,7 +422,7 @@
               src="https://autocartichy.cz/wp-content/themes/autocartichy/_/img/logo.png"
             />
           </a>
-          <a href="#" class="md:flex w-1/2 justify-start hidden">
+          <a href="https://autocartichy.cz/" class="md:flex w-1/2 justify-start hidden">
             <img
               class="
                 hidden
@@ -436,7 +437,7 @@
               src="https://autocartichy.cz/wp-content/themes/autocartichy/_/img/logo.png"
             />
           </a>
-          <a href="#" class="md:flex w-1/2 justify-end hidden">
+          <a href="https://autocartichy.cz/" class="md:flex w-1/2 justify-end hidden">
             <img
               class="
                 md:block

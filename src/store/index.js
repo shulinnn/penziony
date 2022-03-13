@@ -346,7 +346,7 @@ export default new Vuex.Store({
     },
     info: {
       oteviraciDoba: '10:00 - 18:00',
-      telefon: '734 727 373 / 603 194 233',
+      telefon: ['734 727 373','603 194 233'],
       email: 'rezervace@penzionyluhacovice.cz',
     },
   },
