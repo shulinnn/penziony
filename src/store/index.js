@@ -218,9 +218,11 @@ export default new Vuex.Store({
           roomType: 2,
           ceny: [690, 990],
           fotky: [
-            'pokoje/jecminek/4/IMG_0413.png',
-            'pokoje/jecminek/4/IMG_0414.png',
-            'pokoje/jecminek/4/IMG_0415.png',
+            'pokoje/jecminek/4/IMG_3306.png',
+            'pokoje/jecminek/4/IMG_3307.png',
+            'pokoje/jecminek/4/IMG_3311.png',
+            'pokoje/jecminek/4/IMG_3314.png',
+            'pokoje/jecminek/4/IMG_3315.png'
           ],
         },
         5: {
@@ -244,9 +246,12 @@ export default new Vuex.Store({
           roomType: 2,
           ceny: [690, 990],
           fotky: [
-            'pokoje/jecminek2/1/P5132074.jpg',
-            'pokoje/jecminek2/1/P5132075.jpg',
-            'pokoje/jecminek2/1/P5132076.jpg'
+            'pokoje/jecminek2/1/IMG_3175.jpg',
+            'pokoje/jecminek2/1/IMG_3176.jpg',
+            'pokoje/jecminek2/1/IMG_3180.jpg',
+            'pokoje/jecminek2/1/IMG_3182.jpg',
+            'pokoje/jecminek2/1/IMG_3183.jpg',
+            'pokoje/jecminek2/1/IMG_3184.jpg'
           ],
         },
         2: {
@@ -280,9 +285,12 @@ export default new Vuex.Store({
           roomType: 1,
           ceny: [690],
           fotky: [
-            'pokoje/jecminek2/4/IMG_0394.png',
-            'pokoje/jecminek2/4/IMG_0395_0.png',
-            'pokoje/jecminek2/4/IMG_0396.png'
+            'pokoje/jecminek2/4/IMG_3412.png',
+            'pokoje/jecminek2/4/IMG_3414.png',
+            'pokoje/jecminek2/4/IMG_3415.png',
+            'pokoje/jecminek2/4/IMG_3416.png',
+            'pokoje/jecminek2/4/IMG_3419.png',
+            'pokoje/jecminek2/4/IMG_3422.png'
           ],
         },
         5: {
@@ -292,9 +300,11 @@ export default new Vuex.Store({
           roomType: 2,
           ceny: [690,990],
           fotky: [
-            'pokoje/jecminek2/5/P5132097_0.jpg',
-            'pokoje/jecminek2/5/P5132098.jpg',
-            'pokoje/jecminek2/5/P5132101.jpg'
+            'pokoje/jecminek2/5/IMG_3424.jpg',
+            'pokoje/jecminek2/5/IMG_3425.jpg',
+            'pokoje/jecminek2/5/IMG_3431.jpg',
+            'pokoje/jecminek2/5/IMG_3430.jpg',
+            'pokoje/jecminek2/5/IMG_3432.jpg'
           ],
         },
         6: {
