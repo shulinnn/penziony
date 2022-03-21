@@ -218,11 +218,11 @@ export default new Vuex.Store({
           roomType: 2,
           ceny: [690, 990],
           fotky: [
-            'pokoje/jecminek/4/IMG_3306.png',
-            'pokoje/jecminek/4/IMG_3307.png',
-            'pokoje/jecminek/4/IMG_3311.png',
-            'pokoje/jecminek/4/IMG_3314.png',
-            'pokoje/jecminek/4/IMG_3315.png'
+            'pokoje/jecminek/4/IMG_3306.jpg',
+            'pokoje/jecminek/4/IMG_3307.jpg',
+            'pokoje/jecminek/4/IMG_3311.jpg',
+            'pokoje/jecminek/4/IMG_3314.jpg',
+            'pokoje/jecminek/4/IMG_3315.jpg '
           ],
         },
         5: {
@@ -285,12 +285,12 @@ export default new Vuex.Store({
           roomType: 1,
           ceny: [690],
           fotky: [
-            'pokoje/jecminek2/4/IMG_3412.png',
-            'pokoje/jecminek2/4/IMG_3414.png',
-            'pokoje/jecminek2/4/IMG_3415.png',
-            'pokoje/jecminek2/4/IMG_3416.png',
-            'pokoje/jecminek2/4/IMG_3419.png',
-            'pokoje/jecminek2/4/IMG_3422.png'
+            'pokoje/jecminek2/4/IMG_3412.jpg',
+            'pokoje/jecminek2/4/IMG_3414.jpg',
+            'pokoje/jecminek2/4/IMG_3415.jpg',
+            'pokoje/jecminek2/4/IMG_3416.jpg',
+            'pokoje/jecminek2/4/IMG_3419.jpg',
+            'pokoje/jecminek2/4/IMG_3422.jpg'
           ],
         },
         5: {
