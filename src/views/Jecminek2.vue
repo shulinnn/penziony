@@ -1,6 +1,7 @@
 <template>
   <div id="jecminek2">
     <div class="container mx-auto px-8 py-16 md:px-16 xl:px-56">
+          <img class="w-full object-cover mb-8" style="height:40rem;" src="@/assets/penziony/jecminek.jpg" />
       <h2 class="text-2xl text-left">Pokoje Penzion Ječmínek</h2>
       <div class="flex flex-col space-y-4 py-8">
         <span

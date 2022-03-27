@@ -70,7 +70,7 @@
           class="col-span-12 md:order-6 h-16 flex justify-center items-center"
         >
           <div class="flex flex-row">
-            <div v-for="tag in tags" :key="tag" class="flex">{{ tag }}</div>
+            <span v-for="tag in tags" :key="tag" class="inline-flex items-center justify-center px-4 py-2 text-xs font-bold leading-none text-white bg-picovina rounded-full">{{ tag }}</span>
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@
           "
         >
           <div class="flex flex-row">
-            <div v-for="tag in tags" :key="tag" class="flex">{{ tag }}</div>
+            <span v-for="tag in tags" :key="tag" class="inline-flex items-center justify-center px-4 py-2 text-xs font-bold leading-none text-white bg-picovina rounded-full">{{ tag }}</span>
           </div>
         </div>
       </div>
@@ -233,7 +233,7 @@
           class="col-span-12 md:order-6 h-16 flex justify-center items-center"
         >
           <div class="flex flex-row">
-            <div v-for="tag in tags" :key="tag" class="flex">{{ tag }}</div>
+            <span v-for="tag in tags" :key="tag" class="inline-flex items-center justify-center px-4 py-2 text-xs font-bold leading-none text-white bg-picovina rounded-full">{{ tag }}</span>
           </div>
         </div>
       </div>
@@ -342,7 +342,7 @@
           class="col-span-12 md:order-6 h-16 flex justify-center items-center"
         >
           <div class="flex flex-row">
-            <div v-for="tag in tags" :key="tag" class="flex">{{ tag }}</div>
+            <span v-for="tag in tags" :key="tag" class="inline-flex items-center justify-center px-4 py-2 text-xs font-bold leading-none text-white bg-picovina rounded-full">{{ tag }}</span>
           </div>
         </div>
       </div>

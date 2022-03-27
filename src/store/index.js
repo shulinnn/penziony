@@ -7,6 +7,14 @@ export default new Vuex.Store({
   state: {
     pokoje: {
       Agape: {
+        1: {
+          id: 1,
+          title: 'Pokoj č.1 - Dvoulůžkový',
+          tags: ['TV', 'Koupelna a WC'],
+          roomType: 2,
+          ceny: [990, 1190],
+          fotky: [],
+        },
         2: {
           id: 2,
           title: 'Pokoj č.2 - Dvoulůžkový',
@@ -99,7 +107,7 @@ export default new Vuex.Store({
           title: 'Pokoj č.9 - Čtyřlůžkový',
           tags: ['TV,', 'Koupelna a WC'],
           roomType: 4,
-          ceny: ['1090', '1790'],
+          ceny: ['1590', '1890'],
           fotky: [
             'pokoje/agape/9/P4240832.jpg',
             'pokoje/agape/9/P4240834.jpg',
@@ -126,29 +134,29 @@ export default new Vuex.Store({
         },
         11: {
           id: 11,
-          title: 'Pokoj č. 11 apartmán - dvoulůžkový',
+          title: 'Pokoj č. 11 apartmán - Dvoulůžkový',
           tags: [
             'TV,',
             'Radio,',
             'Koupelna a WC,',
             'Lednice',
-            'Přistýlka 590 Kč',
+            'Pro 2 osoby + přístýlka 1790 Kč / noc',
+            'Pro 2 osoby + přístýlka pro dva 1990 Kč / noc',
           ],
           roomType: 2,
-          ceny: ['990', '1290'],
+          ceny: ['1290', '1290'],
           fotky: [
-            'pokoje/agape/11/P4230675.jpg',
-            'pokoje/agape/11/P4230677.jpg',
-            'pokoje/agape/11/P4230679.jpg',
-            'pokoje/agape/11/P4230680.jpg',
-            'pokoje/agape/11/P4230681.jpg',
-            'pokoje/agape/11/P4230682.jpg',
+            'pokoje/agape/11/1.jpg',
+            'pokoje/agape/11/2.jpg',
+            'pokoje/agape/11/3.jpg',
+            'pokoje/agape/11/4.jpg',
+            'pokoje/agape/11/5.jpg',
           ],
         },
         12: {
           id: 12,
           title: 'Pokoj č. 12 - třílůžkový',
-          tags: ['TV,', 'Radio,', 'Koupelna a WC'],
+          tags: ['TV,', 'Radio,', 'Sdílená koupelna a WC'],
           roomType: 3,
           ceny: ['690', '980', '1390'],
           fotky: [
@@ -159,15 +167,23 @@ export default new Vuex.Store({
         },
         13: {
           id: 13,
-          title: 'Pokoj č. 13 - jednolůžkový',
-          tags: ['Radio,', 'Společná koupelna a WC'],
+          title: 'Pokoj č. 13 - Jednolůžkový',
+          tags: ['Radio,', 'Sdílená koupelna a WC'],
           roomType: 1,
-          ceny: ['490'],
+          ceny: ['690'],
           fotky: [
             'pokoje/agape/13/P4240819.jpg',
             'pokoje/agape/13/P4240820.jpg',
             'pokoje/agape/13/P4240821.jpg',
           ],
+        },
+        14: {
+          id: 14,
+          title: 'Pokoj č.14 - Jednolůžkový',
+          tags: ['Sdílená koupelna a WC'],
+          roomType: 1,
+          ceny: ['590'],
+          fotky: [],
         },
       },
       Jecminek: {
@@ -222,7 +238,7 @@ export default new Vuex.Store({
             'pokoje/jecminek/4/IMG_3307.jpg',
             'pokoje/jecminek/4/IMG_3311.jpg',
             'pokoje/jecminek/4/IMG_3314.jpg',
-            'pokoje/jecminek/4/IMG_3315.jpg '
+            'pokoje/jecminek/4/IMG_3315.jpg ',
           ],
         },
         5: {
@@ -251,7 +267,7 @@ export default new Vuex.Store({
             'pokoje/jecminek2/1/IMG_3180.jpg',
             'pokoje/jecminek2/1/IMG_3182.jpg',
             'pokoje/jecminek2/1/IMG_3183.jpg',
-            'pokoje/jecminek2/1/IMG_3184.jpg'
+            'pokoje/jecminek2/1/IMG_3184.jpg',
           ],
         },
         2: {
@@ -263,7 +279,7 @@ export default new Vuex.Store({
           fotky: [
             'pokoje/jecminek2/2/P5132082.jpg',
             'pokoje/jecminek2/2/P5132083.jpg',
-            'pokoje/jecminek2/2/P5132084.jpg'
+            'pokoje/jecminek2/2/P5132084.jpg',
           ],
         },
         3: {
@@ -271,11 +287,16 @@ export default new Vuex.Store({
           title: 'Pokoj č.3 - Dvoulůžkový',
           tags: ['TV,', 'Koupelna a WC'],
           roomType: 2,
-          ceny: [690,990],
+          ceny: [690, 990],
           fotky: [
-            'pokoje/jecminek2/3/IMG_0397_0.png',
-            'pokoje/jecminek2/3/IMG_0400.png',
-            'pokoje/jecminek2/3/IMG_0401.png'
+            'pokoje/jecminek2/3/IMG_3549.jpg',
+            'pokoje/jecminek2/3/IMG_3550.jpg',
+            'pokoje/jecminek2/3/IMG_3553.jpg',
+            'pokoje/jecminek2/3/IMG_3554.jpg',
+            'pokoje/jecminek2/3/IMG_3555.jpg',
+            'pokoje/jecminek2/3/IMG_3557.jpg',
+            'pokoje/jecminek2/3/IMG_3558.jpg',
+            'pokoje/jecminek2/3/IMG_3559.jpg',
           ],
         },
         4: {
@@ -290,7 +311,7 @@ export default new Vuex.Store({
             'pokoje/jecminek2/4/IMG_3415.jpg',
             'pokoje/jecminek2/4/IMG_3416.jpg',
             'pokoje/jecminek2/4/IMG_3419.jpg',
-            'pokoje/jecminek2/4/IMG_3422.jpg'
+            'pokoje/jecminek2/4/IMG_3422.jpg',
           ],
         },
         5: {
@@ -298,65 +319,65 @@ export default new Vuex.Store({
           title: 'Pokoj č.5 - Dvoulůžkový',
           tags: ['TV,', 'Koupelna a WC'],
           roomType: 2,
-          ceny: [690,990],
+          ceny: [690, 990],
           fotky: [
             'pokoje/jecminek2/5/IMG_3424.jpg',
             'pokoje/jecminek2/5/IMG_3425.jpg',
             'pokoje/jecminek2/5/IMG_3431.jpg',
             'pokoje/jecminek2/5/IMG_3430.jpg',
-            'pokoje/jecminek2/5/IMG_3432.jpg'
+            'pokoje/jecminek2/5/IMG_3432.jpg',
           ],
         },
         6: {
           id: 6,
           title: 'Pokoj č.6 - Jednolůžkový',
-          tags: ['TV,', 'Koupelna a WC,','Na společné chodbě'],
+          tags: ['Umyvadlo,', 'Sdílená koupelna a WC'],
           roomType: 1,
           ceny: [450],
           fotky: [
             'pokoje/jecminek2/6/IMG_0380.png',
-            'pokoje/jecminek2/6/IMG_0381.jpg'
+            'pokoje/jecminek2/6/IMG_0381.jpg',
           ],
         },
         7: {
           id: 7,
           title: 'Pokoj č.7 - Dvoulůžkový',
-          tags: ['TV,', 'Koupelna a WC,','Na společné chodbě'],
+          tags: ['Umyvadlo', 'Sdílená koupelna a WC'],
           roomType: 2,
-          ceny: [590,790],
+          ceny: [590, 790],
           fotky: [
             'pokoje/jecminek2/7/IMG_0383.png',
-            'pokoje/jecminek2/7/IMG_0385.png'
+            'pokoje/jecminek2/7/IMG_0385.png',
           ],
         },
         8: {
           id: 8,
           title: 'Pokoj č.8 - Dvoulůžkový',
-          tags: ['TV,', 'Koupelna a WC,','Na společné chodbě'],
+          tags: ['Umyvadlo', 'Sdílená koupelna a WC'],
           roomType: 2,
-          ceny: [590,790],
+          ceny: [590, 790],
           fotky: [
             'pokoje/jecminek2/8/IMG_0389.png',
-            'pokoje/jecminek2/8/IMG_0390.png'
+            'pokoje/jecminek2/8/IMG_0390.png',
           ],
         },
         9: {
           id: 9,
           title: 'Pokoj č.9 - Dvoulůžkový',
-          tags: ['TV,', 'Koupelna a WC,','Na společné chodbě,','Balkón'],
+          tags: ['Sdílená koupelna a WC', 'Balkón'],
           roomType: 2,
-          ceny: [590,790],
+          ceny: [590, 790],
           fotky: [
             'pokoje/jecminek2/9/jecminek9_0.jpg',
             'pokoje/jecminek2/9/jecminek9-1.png',
-            'pokoje/jecminek2/9/jecminek9-2.jpg'
+            'pokoje/jecminek2/9/jecminek9-2.jpg',
           ],
         },
       },
     },
     info: {
       oteviraciDoba: '10:00 - 18:00',
-      telefon: ['734 727 373','603 194 233'],
+      telefon: ['734 727 373', '603 194 233'],
       email: 'rezervace@penzionyluhacovice.cz',
     },
   },

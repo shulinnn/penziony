@@ -1,6 +1,7 @@
 <template>
   <div id="agape">
     <div class="container mx-auto px-8 py-16 md:px-16 xl:px-72">
+      <img class="w-full object-cover mb-8" style="height:40rem;" src="@/assets/penziony/agape_2.jpg" />
       <h2 class="text-2xl text-left">Pokoje Penzion Agape</h2>
       <div class="flex flex-col space-y-4 py-8">
         <span
